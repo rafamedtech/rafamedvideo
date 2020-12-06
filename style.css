@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #8F57FD;
+  background-color: #37718e;
   font-family: "Muli", sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 80px;
   /* background-color: #21C08B; */
-  background-color: #8F57FD;
+  background-color: #37718e;
   /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,8 @@ body {
   margin: 0px 0px 0px -14px;
 }
 
-.header__menu:hover ul, ul:hover {
+.header__menu:hover ul,
+ul:hover {
   display: block;
 }
 
@@ -66,6 +67,7 @@ body {
 .header__menu--profile p {
   margin: 0;
   color: white;
+  font-weight: 600;
 }
 
 .main {
@@ -78,7 +80,7 @@ body {
 
 .main__title {
   color: white;
-  font-size: 25px;
+  font-size: 36px;
 }
 
 .input {
@@ -130,7 +132,7 @@ body {
 
 .carousel-item:hover ~ .carousel-item {
   -webkit-transform: translate3d(100px, 0, 0);
-          transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
 }
 
 .carousel__container:hover .carousel-item {
@@ -139,7 +141,7 @@ body {
 
 .carousel__container:hover .carousel-item:hover {
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   opacity: 1;
 }
 
@@ -155,24 +157,28 @@ body {
   cursor: pointer;
   transition: 450ms all;
   -webkit-transform-origin: center left;
-          transform-origin: center left;
+  transform-origin: center left;
 }
 
 .carousel-item:hover ~ .carousel-item {
   -webkit-transform: translate3d(100px, 0, 0);
-          transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
 }
 
 .carousel-item__img {
   width: 200px;
   height: 250px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .carousel-item__details {
   align-items: flex-start;
-  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   bottom: 0;
   display: flex;
   font-size: 10px;
@@ -212,7 +218,7 @@ body {
 }
 
 .footer {
-  background-color: #8F57FD;
+  background-color: #37718e;
   display: flex;
   align-items: center;
   height: 100px;
