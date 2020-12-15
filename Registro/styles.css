@@ -1,118 +1,117 @@
 body {
-    margin: 0;
-    font-family: 'Muli', sans-serif;
+  margin: 0;
+  font-family: "Muli", sans-serif;
 }
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
-    top: 0px;
-    background-color: #21C08B;
-    color: white;
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  top: 0px;
+  background-color: #21c08b;
+  color: white;
 }
 .header__img {
-    margin-left: 30px;
-    width: 200px;
+  margin-left: 30px;
+  width: 200px;
 }
 
 .login {
-    background: linear-gradient(#21c08b, #8F57FD);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 30px;
-    min-height: calc(100vh - 200px);
+  background: linear-gradient(#21c08b, #8f57fd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
 }
 
 .login__container {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
-    border-radius: 40px;
-    color: white;
-    padding: 60px 68px 40px;
-    min-height: 550px;
-    width: 270px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 60px 68px 40px;
+  min-height: 550px;
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .login__container--form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .login__container--form {
-    font-size: 14px;
+  font-size: 14px;
 }
-
 
 .login__container--register {
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0 auto;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
 .login__container--register:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .input {
-    background-color: transparent;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    border-bottom: 2px solid white;
-    margin-bottom: 20px;
-    padding: 0px 20px;
-    outline: none;
-    height: 50px;
+  background-color: transparent;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
 }
 
 ::placeholder {
-    color: white;
-    font-family: 'Muli', sans-serif;
-    font-size: 16px;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
 }
 
 .button {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 25px;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'Muli', sans-serif;
-    height: 50px;
-    letter-spacing: 1px;
-    margin: 10px 0px;
-    outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Muli", sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  outline: none;
 }
 
 .footer {
-    background-color:  #8F57FD;
-    display: flex;
-    align-items: center;
-    height: 100px;
-    width: 100%;
+  background-color: #8f57fd;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
 }
 
 .footer a {
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: 'Muli', sans-serif;
-    padding-left: 30px;
-    text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Muli", sans-serif;
+  padding-left: 30px;
+  text-decoration: none;
 }
 
 .footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
