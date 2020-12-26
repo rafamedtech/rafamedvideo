@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   background-color: #37718e;
@@ -81,6 +87,7 @@ ul:hover {
 .main__title {
   color: white;
   font-size: 36px;
+  margin-bottom: 15px;
 }
 
 .input {
