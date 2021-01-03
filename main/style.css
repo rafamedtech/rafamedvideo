@@ -8,6 +8,7 @@ body {
   margin: 0;
   background: linear-gradient(#21c08b, #8f57fd);
   font-family: "Muli", sans-serif;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
 .header {

@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: "Muli", sans-serif;
+  background: linear-gradient(#21c08b, #8f57fd);
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 .header {
   display: flex;
@@ -9,7 +11,7 @@ body {
   width: 100%;
   height: 100px;
   top: 0px;
-  background-color: #21c08b;
+  background-color: transparent;
   color: white;
 }
 .header__img {
@@ -18,7 +20,7 @@ body {
 }
 
 .login {
-  background: linear-gradient(#21c08b, #8f57fd);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,7 +129,7 @@ body {
 }
 
 .footer {
-  background-color: #8f57fd;
+  background-color: transparent;
   display: flex;
   align-items: center;
   height: 100px;
