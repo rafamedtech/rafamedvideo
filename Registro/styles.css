@@ -83,6 +83,9 @@ body {
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   border-radius: 25px;
@@ -91,6 +94,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   font-family: "Muli", sans-serif;
+  text-decoration: none;
   height: 50px;
   letter-spacing: 1px;
   margin: 10px 0px;
