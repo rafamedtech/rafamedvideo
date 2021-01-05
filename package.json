@@ -1,0 +1,23 @@
+{
+  "name": "PlatziVideo",
+  "version": "1.0.0",
+  "description": "Pagina para visualizacion de contenido en video en streaming",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafamedtech/rafamedvideo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafamedtech/rafamedvideo/issues"
+  },
+  "homepage": "https://github.com/rafamedtech/rafamedvideo#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
