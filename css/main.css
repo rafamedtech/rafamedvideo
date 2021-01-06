@@ -24,6 +24,7 @@ body {
   width: 200px;
   margin-top: 10px;
   margin-left: 30px;
+  outline: none;
 }
 
 .header__menu {
