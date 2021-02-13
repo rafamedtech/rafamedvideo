@@ -271,10 +271,16 @@ ul:hover {
     width: 100%;
   }
 
+  .header__img {
+    width: 150px;
+  }
+
+  .header__menu {
+    width: 80px;
+  }
+
   .footer {
     align-items: flex-start;
     flex-direction: column;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

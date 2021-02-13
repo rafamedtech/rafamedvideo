@@ -122,3 +122,23 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .header__img {
+    width: 150px;
+  }
+  .login__container {
+    padding: 30px;
+    width: 100%;
+    min-width: 340px;
+  }
+
+  .footer {
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+}

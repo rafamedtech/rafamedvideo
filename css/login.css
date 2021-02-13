@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: "Muli", sans-serif;
@@ -156,15 +157,21 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .header__img {
+    width: 150px;
+  }
   .login__container {
-    background-color: transparent;
-    border: none;
-    padding: 0px;
+    padding: 30px;
     width: 100%;
+    min-width: 340px;
   }
 
   .footer {
-    align-items: flex-start;
-    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-evenly;
   }
 }
