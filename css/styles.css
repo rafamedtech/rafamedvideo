@@ -14,7 +14,7 @@
 body {
 	font-family: 'Muli', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: #000;
+	background:figmasf #000;
 	color: #999;
 }
 
@@ -426,4 +426,13 @@ img {
   .showcase-content {
 	margin-top: 3rem;
 }
+}
+
+@media(min-width: 375px) {
+	.showcase-top a {
+		right: -60px;
+	}
+	.showcase-top img {
+		width: 150px;
+	}
 }
