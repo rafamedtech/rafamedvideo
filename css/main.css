@@ -279,6 +279,27 @@ ul:hover {
     width: 80px;
   }
 
+  .carousel__container {
+   overflow: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+  }
+
+  .carousel-item:hover ~ .carousel-item {
+   -webkit-transform: translate3d(100px, 0, 0);
+   transform: translate3d(0px, 0, 0);
+}
+
+.carousel__container:hover .carousel-item:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.carousel-item:hover ~ .carousel-item {
+  overflow: hidden;
+}
+
   .footer {
     align-items: flex-start;
     flex-direction: column;
